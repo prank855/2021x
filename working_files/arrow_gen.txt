@@ -1,0 +1,38 @@
+## user-editable ##
+canvas-size     = 512
+line-thickness  = 128
+outline-percent = 10
+in-color        = #0000FF // RED
+out-color       = #FFFFFF // WHITE
+
+## computed variables ##
+half        = canvas-size * 0.5
+pt-dist     = half - ( (canvas-size - line-thickness) * 0.9 * 0.5)
+inv_pt-dist = canvas-size - pt-dist
+in-thick    = line-thickness * ( (100 - outline-percent) * 0.01)
+out-thick   = 2 * pt-dist
+
+## START svg ##
+
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" id="2021x Arrow Generated" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 %canvas-size% %canvas-size%" style="enable-background:new 0 0 %canvas-size% %canvas-size%;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:%out-color%;stroke-width:%out-thick%;stroke-linecap:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:%in-color%;stroke-width:%in-thick%;stroke-linecap:round;stroke-miterlimit:10;}
+	.st2{fill:none;}
+</style>
+<g>
+	<line class="st0" x1="%pt-dist%" y1="%half%" x2="%half%" y2="%pt-dist%"/>
+	<line class="st0" x1="%inv_pt-dist%" y1="%half%" x2="%half%" y2="%pt-dist%"/>
+	<line class="st0" x1="%half%" y1="%inv_pt-dist%" x2="%half%" y2="%pt-dist%"/>
+</g>
+<g>
+	<line class="st1" x1="%pt-dist%" y1="%half%" x2="%half%" y2="%pt-dist%"/>
+	<line class="st1" x1="%inv_pt-dist%" y1="%half%" x2="%half%" y2="%pt-dist%"/>
+	<line class="st1" x1="%half%" y1="%inv_pt-dist%" x2="%half%" y2="%pt-dist%"/>
+</g>
+<rect class="st2" width="%canvas-size%" height="%canvas-size%"/>
+</svg>
+
+## END svg ##
