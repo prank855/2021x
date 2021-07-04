@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.0" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 512 512" enable-background="new 0 0 %canvas-size% %canvas-size%" xml:space="preserve">
+<g>
+	<g>
+		<g>
+			
+				<line fill="none" stroke="%out-color%" stroke-width="%outStroke%" stroke-linecap="round" stroke-miterlimit="10" x1="%pt-dist%" y1="%half%" x2="%half%" y2="%pt-dist%"/>
+			
+				<line fill="none" stroke="%out-color%" stroke-width="%outStroke%" stroke-linecap="round" stroke-miterlimit="10" x1="%inv-pt-dist%" y1="%half%" x2="%half%" y2="%pt-dist%"/>
+			
+				<line fill="none" stroke="%out-color%" stroke-width="%outStroke%" stroke-linecap="round" stroke-miterlimit="10" x1="%half%" y1="%inv-pt-dist%" x2="%half%" y2="%pt-dist%"/>
+		</g>
+		<g>
+			
+				<line fill="none" stroke="%in-color%" stroke-width="%inStroke%" stroke-linecap="round" stroke-miterlimit="10" x1="%pt-dist%" y1="%half%" x2="%half%" y2="%pt-dist%"/>
+			
+				<line fill="none" stroke="%in-color%" stroke-width="%inStroke%" stroke-linecap="round" stroke-miterlimit="10" x1="%inv-pt-dist%" y1="%half%" x2="%half%" y2="%pt-dist%"/>
+			
+				<line fill="none" stroke="%in-color%" stroke-width="%inStroke%" stroke-linecap="round" stroke-miterlimit="10" x1="%half%" y1="%inv-pt-dist%" x2="%half%" y2="%pt-dist%"/>
+		</g>
+	</g>
+	<rect fill="none" width="%canvas-size%" height="%canvas-size%"/>
+</g>
+</svg>

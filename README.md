@@ -1,6 +1,6 @@
 WIP
 
-navigate to "working_files" for source arrow, and "working_files/arrow_gen.txt" on how you would automaticaly create the svg's of the arrows.
+navigate to ./arrowgen/ on how to generate your own arrows of different colors/ size ratios
 
 ---
 
